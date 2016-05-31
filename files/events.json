@@ -1,0 +1,23 @@
+{
+	"events":[
+	{
+		"element" :{
+			"id ": "btn_test"
+			"type": "Button"
+		} 
+		"do" : [ {
+			"action" : "onClick"
+
+			"flow" : [	
+						{
+							"type" : "toast",
+							"message" : " Button clicked" ,
+ 							"duration" : 3000 
+						}
+					
+					]
+				}
+			]
+			}
+	]
+}	
